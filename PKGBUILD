@@ -5,7 +5,7 @@
 # https://github.com/masterkorp/joplin-pkgbuild
 
 pkgname=joplin
-pkgver=1.0.218
+pkgver=1.0.220
 pkgrel=1
 pkgdesc="A note taking and to-do application with synchronization capabilities"
 arch=('x86_64' 'i686')
@@ -20,7 +20,7 @@ source=("${pkgname}.desktop" "${pkgname}-desktop.sh" "${pkgname}.sh"
 sha256sums=('80b428ab8ead797a0acabc7a315afa31ac5267830856a75bda1df31988f41fe4'
             '41bfdc95a6ee285eb644d05eb3bded72a83950d4720c3c8058ddd3c605cd625d'
             '5245da6f5f647d49fbe044b747994c9f5a8e98b3c2cd02757dd189426a677276'
-            'e7ce026d390a26f2597eaafc6bbaf05624978b5dd86c62d091a7af9f628898ec')
+            'ada1799aae7067512ff0853adbdfcf012616309795a9a888a765ed82137f0b5d')
 
 build() {
   # Remove husky (git hooks) from dependencies
